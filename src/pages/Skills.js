@@ -1,26 +1,49 @@
-// src/pages/Skills.js
-import React from 'react';
+import React from "react";
 
 const Skills = () => {
-  const skills = [
-    'HTML', 'CSS', 'JavaScript (ES6)', 'React.js', 'Redux', 'Material UI', 
-    'Tailwind CSS', 'Jest', 'REST API', 'MongoDB', 'Python', 'Django',
+  const skillCategories = [
+    {
+      title: "Frontend Technologies",
+      skills: ["HTML", "CSS", "JavaScript (ES6)", "React.js", "Redux", "Material UI", "Tailwind CSS"],
+    },
+    {
+      title: "Backend Technologies",
+      skills: ["Node.js", "Express.js", "Django", "Django REST Framework"],
+    },
+    {
+      title: "Databases",
+      skills: ["MongoDB", "MySQL"],
+    },
+    {
+      title: "Version Control & Tools",
+      skills: ["Git", "GitHub", "JIRA"],
+    },
+    {
+      title: "Testing & Debugging Tools",
+      skills: ["Jest", "Postman"],
+    },
+    {
+      title: "Other Skills",
+      skills: ["Python", "REST API", "ECMAScript 6"],
+    },
   ];
 
   return (
-    <section className="max-w-4xl mx-auto my-10 p-6 bg-white shadow-md rounded-md">
-      <h2 className="text-3xl font-semibold text-gray-800 mb-4">Skills</h2>
-      <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-4">
-        {skills.map((skill, index) => (
-          <span
-            key={index}
-            className="px-4 py-2 bg-gray-100 text-gray-700 rounded-lg text-center shadow-sm"
-          >
-            {skill}
-          </span>
+    <div className="min-h-screen bg-gray-100 p-6">
+      <h1 className="text-4xl font-bold text-center text-gray-800 mb-6">Skills</h1>
+      <div className="max-w-4xl mx-auto grid gap-8">
+        {skillCategories.map((category, index) => (
+          <div key={index} className="bg-white shadow-md rounded-lg p-6">
+            <h2 className="text-2xl font-semibold text-blue-600 mb-4">{category.title}</h2>
+            <ul className="list-disc list-inside text-gray-700 space-y-1">
+              {category.skills.map((skill, idx) => (
+                <li key={idx}>{skill}</li>
+              ))}
+            </ul>
+          </div>
         ))}
       </div>
-    </section>
+    </div>
   );
 };
 
