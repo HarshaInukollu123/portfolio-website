@@ -7,36 +7,36 @@ const Projects = () => {
       id: 1,
       title: 'Blog Platform',
       description: 'A platform for creating, editing, and managing blogs with user authentication and role-based access control.',
-      github: 'https://github.com/yourusername/blog-platform',
-      demo: '#', // Add the live demo link when deployed
+      github: 'https://github.com/HarshaInukollu123/blog-app',
+      demo: 'https://blog-app-mu-five-16.vercel.app/', // Add the live demo link when deployed
     },
     {
       id: 2,
       title: 'E-commerce Website',
       description: 'A responsive online shopping platform with product management, cart, and checkout functionalities.',
-      github: 'https://github.com/yourusername/ecommerce-website',
-      demo: '#',
+      github: 'https://github.com/HarshaInukollu123/ecomsite',
+      demo: 'https://ecomsite-pearl.vercel.app/',
     },
     {
       id: 3,
       title: 'Financial Dashboard',
       description: 'A data visualization dashboard showcasing financial metrics, charts, and real-time analytics.',
-      github: 'https://github.com/yourusername/financial-dashboard',
-      demo: '#',
+      github: 'https://github.com/HarshaInukollu123/finance-app',
+      demo: 'https://finance-app-iota-azure.vercel.app/',
     },
     {
       id: 4,
       title: 'Sales and Inventory Management System',
       description: 'A robust system for managing inventory, tracking sales, and generating insightful reports.',
-      github: 'https://github.com/yourusername/sales-inventory-management',
-      demo: '#',
+      github: 'https://github.com/HarshaInukollu123/sales-inventory',
+      demo: 'https://sales-inventory-eosin.vercel.app/',
     },
     {
       id: 5,
       title: 'Event Management and Ticket Booking System',
       description: 'A streamlined event management platform with online ticket booking and attendee tracking.',
-      github: 'https://github.com/yourusername/event-management-system',
-      demo: '#',
+      github: 'https://github.com/HarshaInukollu123/event-management',
+      demo: 'https://event-management-beta-eosin.vercel.app/',
     },
   ];
 
