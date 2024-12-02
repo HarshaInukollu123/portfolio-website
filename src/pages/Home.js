@@ -65,6 +65,120 @@ const Home = () => {
         </div>
       </section>
 
+      <section className="py-12 bg-white px-6 md:px-16" data-aos="fade-right">
+        <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">
+          My Approach
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="p-6 bg-gray-100 shadow rounded-lg text-center">
+            <h3 className="text-xl font-semibold text-blue-500">Understanding</h3>
+            <p className="mt-2 text-gray-600">
+              I prioritize understanding client requirements and expectations
+              before starting any project.
+            </p>
+          </div>
+          <div className="p-6 bg-gray-100 shadow rounded-lg text-center">
+            <h3 className="text-xl font-semibold text-blue-500">Planning</h3>
+            <p className="mt-2 text-gray-600">
+              I create a roadmap and break tasks into achievable milestones.
+            </p>
+          </div>
+          <div className="p-6 bg-gray-100 shadow rounded-lg text-center">
+            <h3 className="text-xl font-semibold text-blue-500">Execution</h3>
+            <p className="mt-2 text-gray-600">
+              Combining creativity and technology to deliver high-quality
+              solutions.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Case Studies Section */}
+      <section className="py-12 bg-gray-100 px-6 md:px-16" data-aos="fade-left">
+        <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">
+          Case Studies
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="p-6 bg-white shadow rounded-lg">
+            <h3 className="text-xl font-semibold text-blue-500">
+              E-Commerce Platform
+            </h3>
+            <p className="mt-2 text-gray-600">
+              Developed a scalable e-commerce platform with secure payment
+              gateway integration and personalized user experiences.
+            </p>
+            <a
+              href="#"
+              className="text-blue-500 mt-4 inline-block hover:underline"
+            >
+              View Details &rarr;
+            </a>
+          </div>
+
+          <div className="p-6 bg-white shadow rounded-lg">
+            <h3 className="text-xl font-semibold text-blue-500">
+              Blog Management System
+            </h3>
+            <p className="mt-2 text-gray-600">
+              Designed and implemented a full-stack blog platform with
+              moderation features and analytics.
+            </p>
+            <a
+              href="#"
+              className="text-blue-500 mt-4 inline-block hover:underline"
+            >
+              View Details &rarr;
+            </a>
+          </div>
+
+          <div className="p-6 bg-white shadow rounded-lg">
+            <h3 className="text-xl font-semibold text-blue-500">
+               Financial Dashboard
+            </h3>
+            <p className="mt-2 text-gray-600">
+               An analytics dashboard displaying financial data with charts and interactive widgets
+            </p>
+            <a
+              href="#"
+              className="text-blue-500 mt-4 inline-block hover:underline"
+            >
+              View Details &rarr;
+            </a>
+          </div>
+
+          <div className="p-6 bg-white shadow rounded-lg">
+            <h3 className="text-xl font-semibold text-blue-500">
+            Event Management System
+            </h3>
+            <p className="mt-2 text-gray-600">
+             A platform for event ticket booking with user-friendly management features.
+            </p>
+            <a
+              href="#"
+              className="text-blue-500 mt-4 inline-block hover:underline"
+            >
+              View Details &rarr;
+            </a>
+          </div>
+
+          <div className="p-6 bg-white shadow rounded-lg">
+            <h3 className="text-xl font-semibold text-blue-500">
+              Sales and Inventory Management
+            </h3>
+            <p className="mt-2 text-gray-600">
+              A web app to track sales, manage inventory, and generate reports for businesses.
+            </p>
+            <a
+              href="#"
+              className="text-blue-500 mt-4 inline-block hover:underline"
+            >
+              View Details &rarr;
+            </a>
+          </div>
+
+        </div>
+      </section>
+
       {/* Contact Me Section */}
       <section className="mt-12 px-4 bg-gray-100 py-12">
         <h2 className="text-3xl font-semibold text-center text-blue-600">

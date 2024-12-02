@@ -9,11 +9,10 @@ function Navbar() {
           <Link to="/">My Portfolio</Link>
         </h1>
         <ul className="flex space-x-6">
-          <li><Link to="/employment-history">Employment History</Link></li>
+          {/* <li><Link to="/employment-history">Employment History</Link></li> */}
           <li><Link to="/projects" className="hover:text-gray-400">Projects</Link></li>
           <li><Link to="/skills" className="hover:text-gray-400">Skills</Link></li>
-          <li><Link to="/about" className="hover:text-gray-400">About</Link></li>
-          <li><Link to="/contact" className="hover:text-gray-400">Contact</Link></li>
+          {/* <li><Link to="/about" className="hover:text-gray-400">About</Link></li> */}
         </ul>
       </div>
     </nav>
