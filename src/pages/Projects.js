@@ -74,7 +74,7 @@ const Projects = () => {
                 </p>
                 <div className="flex space-x-4">
                   <a
-                    href={project.liveDemo}
+                    href={project.demo}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600 transition"
