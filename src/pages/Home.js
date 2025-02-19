@@ -1,6 +1,6 @@
 import React from 'react';
 import profilePic from '../assets/profile.jpg'; // Replace with your image path
-import HarshaResume from "../assets/InukolluHarshaVardhanReddy_Resume.pdf"; // Adjust the path if needed
+import HarshaResume from "../assets/HarshaVardhanReddy_Resume_2025 .pdf"; // Adjust the path if needed
 import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 
 
