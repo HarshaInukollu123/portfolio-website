@@ -12,9 +12,11 @@ const Home = () => {
         <div className="w-full md:w-1/2 p-6">
           <h1 className="text-4xl font-bold text-blue-600">Hi, I'm Harsha</h1>
           <p className="mt-4 text-gray-600 text-lg">
-            I'm a skilled React JS developer with 5+ years of experience. I
-            specialize in building interactive and user-friendly web
-            applications. Let me take you through my work and experience!
+          Results-driven Full-Stack Developer (MERN) with 7+ years of experience in React.js, Node.js, Express.js, Proficient in micro-services architecture,
+          API development,authentication and Strong knowledge of database management and Agile development.Experienced in performance tuning,debugging, and 
+          troubleshooting for scalable applications.Skilled in CI/CD automation, DevOps tools ,Adept at integrating GraphQL APIs, RESTful services.Passionate 
+          about mentoring junior developers and fostering knowledge-sharing environments. Familiar with API Gateway, WebSockets, Load Balancing, Unit Testing,
+          and real-time data streaming for enhanced application performance.
           </p>
           <div className="mt-6 flex gap-4">
             {/* View Resume Button */}
@@ -255,7 +257,7 @@ const Home = () => {
               rel="noopener noreferrer"
             >
               <FaTwitter size={30} />
-            </a>
+            </a>    
           </div>
         </div>
       </footer>
